@@ -14,21 +14,26 @@ export default function TelaInicial(props) {
             <Text style={estilos.titulo2}> Você sabe qual é a ordem cronológica da franquia Star Wars? </Text>
 
             <Text> Os principais filmes da franquia estão divididos em e trilogias. Clique no botão a seguir para conferir.</Text>
+           
+            <View style={estilos.boxBnt1}>
+                <Button
+                    title="Ver 1ª Trilogia "
+                    onPress={() => props.navigation.navigate("Trilogia 1")} color="#372d00" />
+            </View>
 
-            <Button
-            title="Ver 1ª Trilogia " 
-            onPress={() => props.navigation.navigate("Trilogia 1")} color="#372d00" />
-             <Text> </Text>
+            <View style={estilos.boxBnt2}>
+                <Button
+                    style={estilos.Butt}
+                    title="Ver 2ª Trilogia "
+                    onPress={() => props.navigation.navigate("Trilogia 2")} color="#372d00" />
+            </View>
 
-            <Button 
-            style={estilos.Butt}
-            title="Ver 2ª Trilogia " 
-            onPress={() => props.navigation.navigate("Trilogia 2")} color="#372d00" />
-             <Text> </Text>
 
-            <Button 
-            title="Ver 3ª Trilogia " 
-            onPress={() => props.navigation.navigate("Trilogia 3")} color="#372d00" />
+            <View style={estilos.boxBnt3}>
+                <Button
+                    title="Ver 3ª Trilogia "
+                    onPress={() => props.navigation.navigate("Trilogia 3")} color="#372d00" />
+            </View>
 
         </View>
     );

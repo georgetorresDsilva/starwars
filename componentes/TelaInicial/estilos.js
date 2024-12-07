@@ -5,6 +5,27 @@ const estilos = StyleSheet.create({
         flex: 1,
         backgroundColor: 'black',
     },
+    boxBnt1: {
+        backgroundColor: 'yellow',
+        padding: 5,
+        borderRadius: 5,
+        margin: 10,
+    },
+
+    boxBnt2: {
+        backgroundColor: 'yellow',
+        padding: 5,
+        borderRadius: 5,
+        margin: 10,
+    },
+
+    boxBnt3: {
+        backgroundColor: 'yellow',
+        padding: 5,
+        borderRadius: 5,
+        margin: 10,
+    },
+
     img: {
         
         marginHorizontal: 80,
